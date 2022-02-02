@@ -6,10 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SimPaisa" />
-        <module name="Simpaisa" />
+        <module name="com.simpaisa" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
   </component>
 </project>
