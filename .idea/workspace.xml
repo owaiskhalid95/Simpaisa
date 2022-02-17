@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb3b1d9b-10b0-4a1e-8d8b-c1c9576e5c8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_14_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/test/QATestProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/test/SimPaisaScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/APIRequests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/APIResponses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/AssertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/EndPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/GET.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/HashMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/JDBCUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/POST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/simpaisa/common/framework/utility/Payload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/example/APIRequest_example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/example/DisplayProperties_example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/example/JDBC_examples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/example/SaveConfig_example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/example/SytemEnum_example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/workflows/TestFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/simpaisa/workflows/WifiTransaction.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpaisa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/simpaisa.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simpaisa/common/framework/test/SimPaisaScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simpaisa/common/framework/test/SimPaisaScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/APIRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/APIRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/EndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/EndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/POST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/simpaisa/common/framework/utility/POST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/simpaisa/example/JDBC_examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/simpaisa/example/JDBC_examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/simpaisa/workflows/TestFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/simpaisa/workflows/TestFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/simpaisa/workflows/WifiTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/simpaisa/workflows/WifiTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +27,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24YFeQhsOaN7f6N1F1Ht7x2dJaE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.WifiTransaction">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +55,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/owaiskhalid/Desktop/automationsimpaisa/Simpaisa/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.simpaisa" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.simpaisa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simpaisa.workflows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simpaisa.workflows" />
+      <option name="MAIN_CLASS_NAME" value="com.simpaisa.workflows.TestFlow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlow.make_transasction_wifi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.simpaisa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simpaisa.workflows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simpaisa.workflows" />
+      <option name="MAIN_CLASS_NAME" value="com.simpaisa.workflows.TestFlow" />
+      <option name="METHOD_NAME" value="make_transasction_wifi" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WifiTransaction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.simpaisa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simpaisa.workflows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simpaisa.workflows" />
+      <option name="MAIN_CLASS_NAME" value="com.simpaisa.workflows.WifiTransaction" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.WifiTransaction" />
+        <item itemvalue="TestNG.C:/Users/owaiskhalid/Desktop/automationsimpaisa/Simpaisa/testng.xml" />
+        <item itemvalue="TestNG.TestFlow" />
+        <item itemvalue="TestNG.TestFlow.make_transasction_wifi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,5 +136,8 @@
       <updated>1643799708417</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

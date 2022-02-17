@@ -57,6 +57,12 @@ public class SimPaisaScript {
   }
 
   @Test(enabled = false)
+  public String getMerchantId() {
+    initConfig();
+    return qaTestProperties.getSpmerchantId();
+  }
+
+  @Test(enabled = false)
   public String getOperatorID() {
     initConfig();
     return qaTestProperties.getSpOperatorID();
@@ -204,6 +210,33 @@ public class SimPaisaScript {
     parameters.put("operatorId", qaTestProperties.getSpOperatorID());
 
 
+
+    return parameters.toString();
+  }
+
+
+  @Test(enabled = false)
+  public String post_payload(String mobileNo, String userKey) {
+    JSONObject parameters = new JSONObject();
+    initConfig();
+    parameters.put("merchantId", qaTestProperties.getSpmerchantId());
+    parameters.put("productId", qaTestProperties.getSpProductID());
+    parameters.put("msisdn", mobileNo);
+    parameters.put("userKey",userKey);
+    parameters.put("operatorId", qaTestProperties.getSpOperatorID());
+
+
+
+    return parameters.toString();
+  }
+  @Test(enabled = false)
+  public String post_payload_threshold() {
+    JSONObject parameters = new JSONObject();
+    initConfig();
+
+    parameters.put("productId", qaTestProperties.getSpProductID());
+    parameters.put("msisdn", qaTestProperties.getSpMobileNo());
+    parameters.put("operatorId", qaTestProperties.getSpOperatorID());
 
     return parameters.toString();
   }

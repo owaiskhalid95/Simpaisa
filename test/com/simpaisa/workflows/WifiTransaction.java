@@ -12,17 +12,23 @@ public class WifiTransaction {
 
     APIRequests request = new APIRequests();
     APIResponses response = new APIResponses();
+    String sql = null;
 
     @Test(enabled = true, groups = {"wifi", "workflow"})
     public void make_transasction_wifi() {
         // Note: Threshold Applied, insufficient balance , Product, Operator, mobile all in place (properties)
         // Out of scope : Mobile messages , mobile balance
 
-
         System.out.println(" STEP01: === Initiating Make Transaction Request (POST) ");
 
+
         response = new APIResponses(request.wifi_make_transaction());
+
+
+
         //response = new APIResponses(request.flush());
+
+
 
 
         System.out.println("  < Display Request Responses >");

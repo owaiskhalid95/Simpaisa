@@ -16,6 +16,14 @@ public class APIRequests extends SimPaisaScript {
     return response;
   }
 
+  public Response wifi_make_transaction(String mobileNo, String userKey) {
+    response = post.post_method(this.base_uri(this.path(EndPoint.MAKE_TRANSACTION.getValue())), mobileNo, userKey);
+    return response;
+  }
+  public Response reset_threshold() {
+    response = post.post_method1(this.base_uri(this.path(EndPoint.REMOVE_THRESHOLD.getValue())));
+    return response;
+  }
   public String wifi_get_OTP() {
     String otp = get.get_method(this.base_uri(this.path(EndPoint.GET_OTP.getValue()), this.query_string()));
     return otp;

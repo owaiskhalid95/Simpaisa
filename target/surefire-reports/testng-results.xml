@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T09:24:53Z" name="Suite" finished-at="2022-02-17T09:29:19Z" duration-ms="266242">
+    <groups>
+      <group name="init">
+        <method signature="SimPaisaScript.initialize()[pri:0, instance:com.simpaisa.workflows.TestFlow@3af9c5b7]" name="initialize" class="com.simpaisa.common.framework.test.SimPaisaScript"/>
+      </group> <!-- init -->
+      <group name="wifi">
+        <method signature="TestFlow.make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.TestFlow@3af9c5b7]" name="make_transasction_wifi" class="com.simpaisa.workflows.TestFlow"/>
+        <method signature="WifiTransaction.make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.WifiTransaction@10aa41f2]" name="make_transasction_wifi" class="com.simpaisa.workflows.WifiTransaction"/>
+      </group> <!-- wifi -->
+      <group name="workflow">
+        <method signature="TestFlow.make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.TestFlow@3af9c5b7]" name="make_transasction_wifi" class="com.simpaisa.workflows.TestFlow"/>
+        <method signature="WifiTransaction.make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.WifiTransaction@10aa41f2]" name="make_transasction_wifi" class="com.simpaisa.workflows.WifiTransaction"/>
+      </group> <!-- workflow -->
+    </groups>
+    <test started-at="2022-02-17T09:24:53Z" name="Test" finished-at="2022-02-17T09:29:19Z" duration-ms="266242">
+      <class name="com.simpaisa.workflows.TestFlow">
+        <test-method signature="initialize()[pri:0, instance:com.simpaisa.workflows.TestFlow@3af9c5b7]" started-at="2022-02-17T09:29:18Z" name="initialize" finished-at="2022-02-17T09:29:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.TestFlow@3af9c5b7]" started-at="2022-02-17T09:29:18Z" name="make_transasction_wifi" finished-at="2022-02-17T09:29:19Z" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- make_transasction_wifi -->
+      </class> <!-- com.simpaisa.workflows.TestFlow -->
+      <class name="com.simpaisa.workflows.WifiTransaction">
+        <test-method signature="make_transasction_wifi()[pri:0, instance:com.simpaisa.workflows.WifiTransaction@10aa41f2]" started-at="2022-02-17T09:24:53Z" name="make_transasction_wifi" finished-at="2022-02-17T09:29:18Z" duration-ms="265128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- make_transasction_wifi -->
+      </class> <!-- com.simpaisa.workflows.WifiTransaction -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

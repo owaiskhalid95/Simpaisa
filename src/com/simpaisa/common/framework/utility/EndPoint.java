@@ -5,7 +5,9 @@ public enum EndPoint {
   VERIFY_PAYMENT("verify"),
   GET_OTP("findOTP"),
   MAKE_TRANSACTION("initiate"),
+  REMOVE_THRESHOLD("removeThreshold"),
   SAVE("save");
+
 
   private final String value;
 

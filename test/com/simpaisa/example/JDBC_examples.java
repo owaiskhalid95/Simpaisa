@@ -2,6 +2,8 @@ package com.simpaisa.example;
 
 import com.simpaisa.common.framework.test.QATestProperties;
 import com.simpaisa.common.framework.test.SimPaisaScript;
+import com.simpaisa.common.framework.utility.AssertTest;
+import com.simpaisa.workflows.TestFlow;
 import org.testng.annotations.Test;
 import java.sql.ResultSet;
 
@@ -34,6 +36,15 @@ public class JDBC_examples extends SimPaisaScript {
     System.out.println(sql);
     String value = getSqlQueryValue(sql, "mobileNo");
     System.out.println(" value : " + value);
+  }
+
+  @Test(enabled = true, groups = {"demo", "sql"})
+  public void update_status() {
+
+
+     String sql = "update recursion set status = 0 where status = 1 and Mobileno = '" + this.getMobileNumber() + "'";
+    AssertTest.assertValue(executeSql(sql), true, "Fail: row update failed", "Pass: row update");
+
   }
 
 

@@ -18,6 +18,24 @@ public class POST extends SimPaisaScript {
     return response;
   }
 
+
+  public Response post_method(String uri, String mobileNo, String userKey) {
+    RestAssured.baseURI = uri;
+    RequestSpecification httpRequest = RestAssured.given();
+    httpRequest.header("Content-Type", "application/json");
+    httpRequest.body(post_payload(mobileNo, userKey));
+    response = httpRequest.post();
+    return response;
+  }
+  public Response post_method1(String uri) {
+    RestAssured.baseURI = uri;
+    RequestSpecification httpRequest = RestAssured.given();
+    httpRequest.header("Content-Type", "application/json");
+    httpRequest.body(post_payload_threshold());
+    response = httpRequest.post();
+    return response;
+  }
+
   public Response post_method(String uri, String otp) {
     System.out.println("otp >>>" + otp);
     RestAssured.baseURI = uri;
